@@ -6,10 +6,6 @@ import data.entities.User;
 import javax.persistence.*;
 import java.util.Date;
 
-/**
- * Created by elya on 14/02/2017.
- */
-
 public class Application {
     public static void main(String[] args){
 
@@ -31,10 +27,10 @@ public class Application {
             User user = new User();
             user.setBirthDate(new Date());
             user.setCreatedDate(new Date());
-            user.setCreatedBy("eliya Bar On test");
+            user.setCreatedBy("Test");
             user.setEmailAddress("asd@asd.com");
-            user.setFirstName("Morgane - JPA");
-            user.setLastName("Mohr - JPA");
+            user.setFirstName("- JPA");
+            user.setLastName(" - JPA");
             user.setLastUpdatedBy("Flash");
             user.setLastUpdatedDate(new Date());
 

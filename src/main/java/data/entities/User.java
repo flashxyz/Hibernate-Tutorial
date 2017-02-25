@@ -3,9 +3,6 @@ package data.entities;
 import javax.persistence.*;
 import java.util.Date;
 
-/**
- * Created by elya on 13/02/2017.
- */
 @Entity
 @Table(name = "FINANCES_USER")
 public class User {
@@ -14,7 +11,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="USER_ID")
     private Long userID;
-    
+
     @Column(name = "FIRST_NAME")
     private String firstName;
 
